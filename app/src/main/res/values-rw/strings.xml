@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">SwiftSales</string>
+
+    <!-- Language Screen -->
+    <string name="choose_language">Hitamo Ururimi</string>
+    <string name="language_subtitle">Hitamo ururimi ukunda gukoresha</string>
+    <string name="lang_english">English</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_kinyarwanda">Kinyarwanda</string>
+    <string name="continue_btn">Komeza</string>
+
+    <!-- Onboarding -->
+    <string name="onboard1_title">Gucunga Ubucuruzi Neza</string>
+    <string name="onboard1_sub">POS yuzuye, ububiko n\'raporo — byose ahantu hamwe</string>
+    <string name="onboard2_title">Menya Imibare Yawe</string>
+    <string name="onboard2_sub">Raporo z\'iterambere, gukurikirana inyungu n\'ibisubizo</string>
+    <string name="onboard3_title">Gucunga Itsinda Ryawe</string>
+    <string name="onboard3_sub">Ongeraho abakozi, tanga uburenganzira, kurikirana imikorere</string>
+    <string name="onboard1_pill1">⚡ Byihuse</string>
+    <string name="onboard1_pill2">🔒 Ufite Umutekano</string>
+    <string name="onboard1_pill3">📱 Byoroshye</string>
+    <string name="onboard2_pill1">📈 Nk\'Uko Bimeze</string>
+    <string name="onboard2_pill2">💰 Inyungu</string>
+    <string name="onboard2_pill3">🏆 Ibicuruzwa Bikunzwe</string>
+    <string name="onboard3_pill1">👤 Inshingano</string>
+    <string name="onboard3_pill2">🔑 PIN</string>
+    <string name="onboard3_pill3">📋 Amasaha y\'Akazi</string>
+    <string name="next">Komeza</string>
+    <string name="skip">Reka</string>
+    <string name="get_started">Tangira</string>
+    <string name="already_have_account">Usanzwe ufite konti?</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Gucunga Ubucuruzi Neza</string>
+
+    <!-- Auth -->
+    <string name="create_account">Fungura Konti</string>
+    <string name="sign_in">Injira</string>
+    <string name="sign_up">Iyandikishe</string>
+    <string name="welcome_back">Murakaza neza!</string>
+    <string name="forgot_password">Wibagiwe Ijambo Banga?</string>
+    <string name="dont_have_account">Nta konti ufite?</string>
+    <string name="full_name">Amazina Yombi</string>
+    <string name="phone_number">Nimero ya Telefoni</string>
+    <string name="email_optional">Imeyili (Ntibisabwa)</string>
+    <string name="business_name">Izina ry\'Ubucuruzi</string>
+    <string name="password">Ijambo Banga</string>
+    <string name="confirm_password">Emeza Ijambo Banga</string>
+    <string name="terms_agree">Nemeye Amategeko n\'Ubuzima bw\'Amakuru</string>
+    <string name="show">Erekana</string>
+    <string name="hide">Hisha</string>
+    <string name="back">← Subira inyuma</string>
+    <string name="cancel">Hagarika</string>
+    <string name="sign_in_subtitle">Injira muri konti yawe ya SwiftSales</string>
+    <string name="sign_up_subtitle">Tangira gucunga ubucuruzi bwawe uyu munsi</string>
+    <string name="label_phone_or_email">Telefoni cyangwa Imeyili</string>
+    <string name="hint_phone_or_email">+250 788 000 000</string>
+    <string name="hint_password">Ijambo banga ryawe</string>
+    <string name="hint_password_min">Nibura imibare 8</string>
+    <string name="hint_confirm_password">Subiramo ijambo banga</string>
+    <string name="hint_full_name">Amazina yombi</string>
+    <string name="hint_phone">788 000 000</string>
+    <string name="hint_email">imeyili@urugero.com</string>
+    <string name="hint_business_name">Iduka ryanjye</string>
+    <string name="hint_tax_rate">urugero: 18</string>
+    <string name="or_continue_with">  cyangwa komeza na  </string>
+    <string name="continue_with_google">🔵  Komeza na Google</string>
+    <string name="error_phone_email_required">Telefoni cyangwa imeyili irasabwa</string>
+    <string name="error_password_required">Ijambo banga rirasabwa</string>
+    <string name="error_full_name_required">Amazina yombi asabwa</string>
+    <string name="error_phone_required">Nimero ya telefoni isabwa</string>
+    <string name="error_business_name_required">Izina ry\'ubucuruzi risabwa</string>
+    <string name="error_password_min_length">Ijambo banga rigomba kuba nibura imibare 8</string>
+    <string name="error_passwords_no_match">Amagambo banga ntahuye</string>
+    <string name="error_terms_not_agreed">Nyamuneka emera Amategeko n\'Ubuzima bw\'Amakuru</string>
+    <string name="error_invalid_credentials">Amakuru atari yo. Ongera ugerageze.</string>
+    <string name="welcome_back_toast">Murakaza neza! 👋</string>
+    <string name="account_created_toast">Konti ifunguwe! Murakaza neza %1$s</string>
+    <string name="setup_complete_toast">Gushyiraho byarangiye! Tujye 🚀</string>
+    <string name="reset_code_sent_toast">Kode yoherejwe kuri %1$s</string>
+    <string name="forgot_password_subtitle">Injiza nimero ya telefoni kandi tuzohereza kode</string>
+    <string name="send_reset_code">Ohereza Kode</string>
+    <string name="change_password_title">🔒 Hindura Ijambo Banga</string>
+    <string name="label_current_password">Ijambo Banga rya None</string>
+    <string name="label_new_password">Ijambo Banga Rishya</string>
+    <string name="label_confirm_new_password">Emeza Ijambo Banga Rishya</string>
+    <string name="hint_current_password">Injiza ijambo banga rya none</string>
+    <string name="update_password_btn">Vugurura</string>
+
+    <!-- Business Setup -->
+    <string name="setup_title">Shyiraho Ubucuruzi Bwawe</string>
+    <string name="setup_subtitle">Tubwire ibijyanye n\'ubucuruzi bwawe gutangira</string>
+    <string name="business_type">Ubwoko bw\'Ubucuruzi</string>
+    <string name="currency">Ifaranga</string>
+    <string name="tax_rate">Umusoro % (Ntibisabwa)</string>
+    <string name="finish_setup">Soza Gushyiraho 🚀</string>
+
+    <!-- Greetings -->
+    <string name="good_morning">Mwaramutse 👋</string>
+    <string name="good_afternoon">Mwiriwe 👋</string>
+    <string name="good_evening">Ijoro ryiza 👋</string>
+    <string name="working_late">Murakora nijoro? 🌙</string>
+
+    <!-- Dashboard -->
+    <string name="low_stock">ububiko buke</string>
+    <string name="margin">inyungu</string>
+    <string name="vs_yesterday">ugereranyije na ejo</string>
+    <string name="on_shift">uri kukazi</string>
+    <string name="orders_today">Ibyatumijwe Uyu Munsi</string>
+    <string name="products">Ibicuruzwa</string>
+    <string name="active_staff">Abakozi Bakora</string>
+    <string name="net_profit">Inyungu Nyayo</string>
+    <string name="todays_revenue">INYUNGU Y\'UYUMUNSI</string>
+    <string name="weekly_sales">Ibyagurishijwe mu cyumweru</string>
+    <string name="this_week">Icyi Cyumweru</string>
+    <string name="recent_sales">Ibyagurishijwe Vuba Aha</string>
+    <string name="view_all">Reba Byose →</string>
+    <string name="no_sales_today">Nta byagurishijwe uyu munsi</string>
+    <string name="start_first_sale">Tangira kugurisha →</string>
+    <string name="new_sale">⚡ Kugurisha</string>
+    <string name="add_product">＋ Igicuruzwa</string>
+    <string name="view_reports">📊 Raporo</string>
+    <string name="register_order_btn">📋 Tumiza</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Ahabanza</string>
+    <string name="nav_pos">Gurisha</string>
+    <string name="nav_inventory">Ububiko</string>
+    <string name="nav_reports">Raporo</string>
+    <string name="nav_staff">Abakozi</string>
+    <string name="nav_settings">Igenamiterere</string>
+
+    <!-- Inventory -->
+    <string name="inventory_title">Ububiko</string>
+    <string name="search_products">Shakisha izina, icyiciro cyangwa barcode…</string>
+    <string name="total_products">Ibicuruzwa byose</string>
+    <string name="stock_value">Agaciro k\'ububiko</string>
+    <string name="add_product_btn">Ongeraho Igicuruzwa</string>
+    <string name="no_products_yet">Nta bicuruzwa bihari</string>
+    <string name="add_first_product">Ongeraho igicuruzwa cya mbere</string>
+    <string name="in_stock">Bihari</string>
+    <string name="out_of_stock">Byarangiye</string>
+    <string name="low_stock_label">Ububiko Buke</string>
+    <string name="delete_product_title">Siba igicuruzwa?</string>
+    <string name="delete_product_msg">birasibwa burundu.</string>
+    <string name="add_product_title">Ongeraho Igicuruzwa</string>
+    <string name="edit_product_title">Hindura Igicuruzwa</string>
+    <string name="product_icon_label">Ikimenyetso cy\'Igicuruzwa</string>
+    <string name="product_name_label">Izina ry\'Igicuruzwa *</string>
+    <string name="product_name_hint">urugero: Coca Cola 500ml</string>
+    <string name="category_label">Icyiciro *</string>
+    <string name="category_other">Ikindi</string>
+    <string name="selling_price_label">Igiciro cyo Kugurisha *</string>
+    <string name="cost_price_label">Igiciro cyo Kugura</string>
+    <string name="stock_qty_label">Ingano mu Bubiko *</string>
+    <string name="low_stock_alert_label">Imenyesha y\'Ububiko Buke</string>
+    <string name="barcode_label">Barecode (Ntibisabwa)</string>
+    <string name="barcode_hint">Scan cyangwa andika barecode</string>
+    <string name="save_product_btn">Bika Igicuruzwa</string>
+    <string name="adjust_stock_title">Hindura Ububiko</string>
+    <string name="new_stock_hint">Ingano nshya mu bubiko</string>
+    <string name="current_stock_label">Ububiko bwa none:</string>
+    <string name="product_name_required">Izina ry\'igicuruzwa risabwa</string>
+    <string name="selling_price_required">Igiciro cyo kugurisha gisabwa</string>
+    <string name="stock_qty_required">Ingano mu bubiko isabwa</string>
+    <string name="product_deleted">Igicuruzwa cyasibwe</string>
+    <string name="delete_failed">Gusiba byanze</string>
+    <string name="product_updated">Igicuruzwa cyavuguruwe ✅</string>
+    <string name="product_added">Igicuruzwa cyongewe ✅</string>
+    <string name="stock_updated">Ububiko buvuguruwe ✅</string>
+    <string name="update_failed">Kuvugurura byanze ❌</string>
+    <string name="enter_a_number">Injiza umubare</string>
+    <string name="invalid_number">Umubare utari wo</string>
+    <string name="cannot_be_negative">Ntishobora kuba munsi ya zeru</string>
+    <string name="in_stock_badge">Bihari: %1$d</string>
+    <string name="low_stock_badge">Buke: %1$d</string>
+    <string name="cat_food">🍎 Ibiribwa</string>
+    <string name="cat_drinks">🥤 Ibinyobwa</string>
+    <string name="cat_household">🏠 Urugo</string>
+    <string name="cat_electronics">📱 Ikoranabuhanga</string>
+    <string name="cat_other">📦 Ikindi</string>
+    <string name="settings_nav_title">Igenamiterere &amp; Inzira</string>
+    <string name="menu_change_language">🌐   Hindura Ururimi</string>
+    <string name="menu_sign_in_different">🔑   Injira na konti nzindi</string>
+    <string name="menu_create_account">📝   Fungura konti nshya</string>
+    <string name="menu_go_dashboard">🏠   Jya ku Dashibodi</string>
+    <string name="menu_cancel">❌   Hagarika</string>
+    <string name="create_account_title">Fungura Konti Nshya?</string>
+    <string name="create_account_msg">Amakuru yose yo muri iki gikorwa azasibwa.</string>
+    <string name="yes_continue">Yego, Komeza</string>
+
+    <!-- Staff -->
+    <string name="staff_title">Abakozi</string>
+    <string name="total_staff">Abakozi Bose</string>
+    <string name="active">Bakora</string>
+    <string name="cashiers">Abacungamutungo</string>
+    <string name="add_staff_btn">Ongeraho Umukozi</string>
+    <string name="no_staff_yet">Nta bakozi bahari</string>
+    <string name="add_first_staff">Ongeraho umukozi wa mbere</string>
+    <string name="remove_staff_title">Kuraho Umukozi</string>
+    <string name="remove_staff_msg">burundu? Ntashobora gusubiraho.</string>
+    <string name="deactivate_staff">Hagarika Umukozi</string>
+    <string name="activate_staff">Fungura Umukozi</string>
+    <string name="joined">Yinjiye:</string>
+    <string name="add_staff_member">Ongeraho Umukozi</string>
+    <string name="edit_staff_member">Hindura Umukozi</string>
+    <string name="tab_all">Bose</string>
+    <string name="tab_cashiers">🧑‍💻 Abacungamutungo</string>
+    <string name="tab_managers">👔 Abamanejya</string>
+    <string name="tab_inactive">⏸ Ntibakora</string>
+    <string name="staff_hint_name">Amazina yombi *</string>
+    <string name="staff_hint_phone">Nimero ya telefoni *</string>
+    <string name="staff_hint_email">Imeyili (ntibisabwa)</string>
+    <string name="staff_hint_role">Inshingano *</string>
+    <string name="staff_hint_pin">PIN y\'imibare 4 *</string>
+    <string name="staff_pin_helper">Ikoreshwa kwinjira kuri aho kugurira</string>
+    <string name="name_required">Amazina asabwa</string>
+    <string name="phone_required">Telefoni isabwa</string>
+    <string name="pin_error">Injiza PIN y\'imibare 4</string>
+    <string name="pin_already_used">PIN ikoreshwa n\'undi mukozi</string>
+    <string name="staff_updated">%1$s bivuguruwe ✅</string>
+    <string name="staff_added">%1$s yongewe ✅</string>
+    <string name="staff_removed">Umukozi yakuweho</string>
+    <string name="staff_activated">%1$s yafunguwe</string>
+    <string name="staff_deactivated">%1$s yahagaritswe</string>
+    <string name="deactivate_confirm">Hagarika %1$s?</string>
+    <string name="activate_confirm">Fungura %1$s?</string>
+    <string name="remove_staff_confirm">Kuraho \"%1$s\" burundu? Ntishobora gusubiraho.</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Raporo</string>
+    <string name="period_today">Uyu Munsi</string>
+    <string name="period_week">Icyi Cyumweru</string>
+    <string name="period_month">Uku Kwezi</string>
+    <string name="period_all">Byose</string>
+    <string name="kpi_revenue">Inyungu</string>
+    <string name="kpi_profit">Inyungu Isasaze</string>
+    <string name="kpi_orders">Ibyatumijwe</string>
+    <string name="kpi_avg_order">Hagati</string>
+    <string name="payment_methods">Uburyo bwo Kwishyura</string>
+    <string name="sales_history">Amateka y\'Ubuguzi</string>
+    <string name="sales_singular">kugurisha</string>
+    <string name="sales_plural">ibikorwa byo kugurisha</string>
+    <string name="sale_hash">Kugurisha #</string>
+    <string name="no_sales_period">Nta byagurishijwe muri iki gihe</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Igenamiterere</string>
+    <string name="section_business">🏪  UBUCURUZI</string>
+    <string name="section_account">👤  KONTI</string>
+    <string name="section_app">📱  POROGARAMU</string>
+    <string name="section_danger">⚠️  ICYANGOMBWA</string>
+    <string name="setting_business_name">Izina ry\'Ubucuruzi</string>
+    <string name="setting_business_type">Ubwoko bw\'Ubucuruzi</string>
+    <string name="setting_currency">Ifaranga</string>
+    <string name="setting_tax_rate">Umusoro</string>
+    <string name="setting_full_name">Amazina Yombi</string>
+    <string name="setting_phone">Telefoni</string>
+    <string name="setting_change_password">Hindura Ijambo Banga</string>
+    <string name="setting_language">Ururimi</string>
+    <string name="setting_receipt_footer">Ubutumwa bw\'Irisiti</string>
+    <string name="sign_out">Sohoka</string>
+    <string name="sign_out_title">Sohoka?</string>
+    <string name="sign_out_msg">Urava muri SwiftSales.</string>
+    <string name="clear_all_data">Siba Amakuru y\'Ubuguzi</string>
+    <string name="clear_data_title">⚠️ Siba Amakuru yose?</string>
+    <string name="clear_data_msg">Birasiba burundu amakuru yose y\'ubuguzi. Ibicuruzwa n\'abakozi ntibizagira ingaruka.</string>
+    <string name="clear_data_confirm">Yego, Siba</string>
+    <string name="sales_data_cleared">Amakuru yose asibwe 🗑️</string>
+    <string name="cannot_be_empty">Ntishobora kuba ubusa</string>
+    <string name="updated_success">bivuguruwe ✅</string>
+    <string name="incorrect_password">Ijambo banga rya none si ryo</string>
+    <string name="password_min_length">Nibura inyuguti 8</string>
+    <string name="passwords_no_match">Amagambo banga ntahuye</string>
+    <string name="password_updated">Ijambo banga rivuguruwe ✅</string>
+    <string name="receipt_footer_default">Murakoze kuza gutugurira!</string>
+    <string name="app_footer">Verisiyo 1.0.0 · Yakozwe ku bikorwa by\'Afrika</string>
+    <string name="profile_title">Umwirondoro Wanjye</string>
+    <string name="go_to_settings">Igenamiterere ry\'Konti</string>
+
+    <!-- POS -->
+    <string name="new_sale_title">Kugurisha Gushya</string>
+    <string name="checkout_title">Kwishyura</string>
+    <string name="no_products_found">Nta bicuruzwa bibonetse</string>
+    <string name="add_products_first">Ongeraho ibicuruzwa mu bubiko bwa mbere</string>
+    <string name="cart_empty">Agasanduku karimo ubusa!</string>
+    <string name="not_enough_stock">Ububiko buke!</string>
+    <string name="added_to_cart">yongewe ✅</string>
+    <string name="items">ibicuruzwa</string>
+    <string name="each">buri kimwe</string>
+    <string name="tax_label">Umusoro</string>
+    <string name="enter_amount_received">Injiza amafaranga yakiriwe</string>
+    <string name="amount_less_than_total">Amafaranga make kuruta igiciro!</string>
+    <string name="invalid_amount">Umubare utari wo</string>
+    <string name="saving">Bika…</string>
+    <string name="sale_completed">Kugurisha byarangiye! 🎉</string>
+    <string name="confirm_sale">✅  Emeza Kugurisha</string>
+    <string name="cart_items">Ibicuruzwa mu Gasanduku</string>
+    <string name="order_summary">Incamake</string>
+    <string name="payment_method">Uburyo bwo Kwishyura</string>
+    <string name="cash_tendered">Amafaranga Yatanzwe</string>
+    <string name="change">Amafaranga Asigaye</string>
+    <string name="pos_stock_label">Ububiko: %1$d</string>
+    <string name="pos_add_btn">＋ Ongeraho</string>
+    <string name="pos_search_hint">🔍  Shakisha cyangwa scan...</string>
+
+    <!-- Orders -->
+    <string name="orders_title">Tumiza</string>
+    <string name="add_order_btn">＋ Gutumiza</string>
+    <string name="add_order_title">Andika Itumiza Rishya</string>
+    <string name="total_orders">Yose</string>
+    <string name="pending_orders">Birategereje</string>
+    <string name="fulfilled_orders">Byarangiye</string>
+    <string name="order_status_pending">⏳ Birategereje</string>
+    <string name="order_status_fulfilled">✅ Byarangiye</string>
+    <string name="order_status_cancelled">❌ Byahagaritswe</string>
+    <string name="no_orders_yet">Nta gutumiza kwabayeho</string>
+    <string name="add_first_order">Andika itumiza ryawe rya mbere</string>
+    <string name="order_customer_name">Izina ry\'Umukiriya *</string>
+    <string name="order_customer_name_hint">urugero: Willy Hirwa</string>
+    <string name="order_customer_contact">Kontakite z\'Uwatumije</string>
+    <string name="order_customer_contact_hint">+250 788 000 000 cyangwa @izina</string>
+    <string name="order_channel">Inzira y\'Itumiza *</string>
+    <string name="order_items">Ibicuruzwa Byatumijwe</string>
+    <string name="order_notes">Ibisobanuro (Ntibisabwa)</string>
+    <string name="order_notes_hint">Aderesi, amabwiriza…</string>
+    <string name="add_item_btn">＋ Ongeraho</string>
+    <string name="save_order_btn">Bika Itumiza</string>
+    <string name="select_product">Hitamo Igicuruzwa</string>
+    <string name="order_no_items">Ongeraho nibura igicuruzwa kimwe</string>
+    <string name="fulfil_order_title">Soza Itumiza</string>
+    <string name="fulfil_order_msg">Soza itumiza rya %1$s? Hitamo uburyo bwo kwishyura:</string>
+    <string name="fulfil_confirm">Soza</string>
+    <string name="fulfil_order_btn">✅ Soza Itumiza</string>
+    <string name="cancel_order_btn">Hagarika</string>
+    <string name="cancel_order_title">Hagarika Itumiza?</string>
+    <string name="cancel_order_msg">Hagarika itumiza rya %1$s?</string>
+    <string name="delete_order_title">Siba Itumiza?</string>
+    <string name="delete_order_msg">Siba burundu itumiza rya \"%1$s\"?</string>
+    <string name="order_added">Itumiza ryanditswe ✅</string>
+    <string name="order_fulfilled">Itumiza ryarangiye! 🎉 Ryongewe mu Raporo</string>
+    <string name="order_cancelled">Itumiza ryahagaritswe</string>
+    <string name="pay_cash">💵 Amafaranga</string>
+    <string name="pay_mobile">📱 Mobile Money</string>
+    <string name="pay_card">💳 Karita</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Imenyesha</string>
+    <string name="no_notifications">Byose birimo neza!</string>
+    <string name="no_notifications_sub">Nta menyesha ubu. Komeza kugurisha!</string>
+    <string name="notif_today">Uyu munsi</string>
+    <string name="notif_singular">imenyesha</string>
+    <string name="notif_plural">imenyesha</string>
+    <string name="notif_daily_summary_title">Incamake y\'Ubuguzi bw\'Uyu Munsi</string>
+    <string name="notif_daily_summary_sub">%1$d Itumiza · Inyungu %2$s · Inyungu isasaze %3$s</string>
+    <string name="notif_pending_orders_title">Imatumiza Ritegereje</string>
+    <string name="notif_pending_orders_sub">%1$d itumiza ritegereje gusozwa</string>
+    <string name="notif_low_stock_title">Ububiko Buke: %1$s</string>
+    <string name="notif_low_stock_sub">%1$d gusa bisigaye</string>
+    <string name="notif_staff_inactive_title">Umukozi Ntakora: %1$s</string>
+    <string name="notif_staff_inactive_sub">Uyu mukozi yahagaritswe</string>
+
+    <!-- Common -->
+    <string name="yes">Yego</string>
+    <string name="delete">Siba</string>
+    <string name="remove">Kuraho</string>
+    <string name="edit">Hindura</string>
+    <string name="save">Bika</string>
+    <string name="update_stock">Vugurura Ububiko</string>
+    <string name="something_went_wrong">Habaye ikosa ❌</string>
+
+    <!-- res/values-rw/strings.xml (Kinyarwanda) -->
+
+        <string name="scan_barcode_btn">Scan barecode</string>
+        <string name="barcode_scanned">Barecode yascannwe ✅</string>
+    </resources>

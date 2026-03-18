@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">SwiftSales</string>
+
+    <!-- Language Screen -->
+    <string name="choose_language">Choose Your Language</string>
+    <string name="language_subtitle">Select the language you\'re most comfortable with</string>
+    <string name="lang_english">English</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_kinyarwanda">Kinyarwanda</string>
+    <string name="continue_btn">Continue</string>
+
+    <!-- Onboarding -->
+    <string name="onboard1_title">Run Your Business Smarter</string>
+    <string name="onboard1_sub">Complete POS, inventory, and reports — all in one place</string>
+    <string name="onboard2_title">Know Your Numbers</string>
+    <string name="onboard2_sub">Live sales reports, profit tracking, and top-product insights</string>
+    <string name="onboard3_title">Manage Your Team</string>
+    <string name="onboard3_sub">Add staff, assign permissions, and track performance anywhere</string>
+    <string name="onboard1_pill1">⚡ Fast</string>
+    <string name="onboard1_pill2">🔒 Secure</string>
+    <string name="onboard1_pill3">📱 Simple</string>
+    <string name="onboard2_pill1">📈 Live</string>
+    <string name="onboard2_pill2">💰 Profit</string>
+    <string name="onboard2_pill3">🏆 Top Items</string>
+    <string name="onboard3_pill1">👤 Roles</string>
+    <string name="onboard3_pill2">🔑 PIN</string>
+    <string name="onboard3_pill3">📋 Shifts</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+    <string name="already_have_account">Already have an account?</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Run Your Business Smarter</string>
+
+    <!-- Auth -->
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_optional">Email (Optional)</string>
+    <string name="business_name">Business Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="terms_agree">I agree to the Terms &amp; Privacy Policy</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="back">← Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="sign_in_subtitle">Sign in to your SwiftSales account</string>
+    <string name="sign_up_subtitle">Start managing your business today</string>
+    <string name="label_phone_or_email">Phone or Email</string>
+    <string name="hint_phone_or_email">+250 788 000 000</string>
+    <string name="hint_password">Your password</string>
+    <string name="hint_password_min">Min. 8 characters</string>
+    <string name="hint_confirm_password">Repeat password</string>
+    <string name="hint_full_name">John Doe</string>
+    <string name="hint_phone">788 000 000</string>
+    <string name="hint_email">john@example.com</string>
+    <string name="hint_business_name">My Shop Ltd</string>
+    <string name="hint_tax_rate">e.g. 18</string>
+    <string name="or_continue_with">  or continue with  </string>
+    <string name="continue_with_google">🔵  Continue with Google</string>
+    <string name="error_phone_email_required">Phone or email is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_full_name_required">Full name is required</string>
+    <string name="error_phone_required">Phone number is required</string>
+    <string name="error_business_name_required">Business name is required</string>
+    <string name="error_password_min_length">Password must be at least 8 characters</string>
+    <string name="error_passwords_no_match">Passwords do not match</string>
+    <string name="error_terms_not_agreed">Please agree to Terms &amp; Privacy Policy</string>
+    <string name="error_invalid_credentials">Invalid credentials. Please try again.</string>
+    <string name="welcome_back_toast">Welcome back! 👋</string>
+    <string name="account_created_toast">Account created! Welcome %1$s</string>
+    <string name="setup_complete_toast">Setup complete! Let\'s go 🚀</string>
+    <string name="reset_code_sent_toast">Reset code sent to %1$s</string>
+    <string name="forgot_password_subtitle">Enter your phone number and we\'ll send a reset code</string>
+    <string name="send_reset_code">Send Reset Code</string>
+    <string name="change_password_title">🔒 Change Password</string>
+    <string name="label_current_password">Current Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="label_confirm_new_password">Confirm New Password</string>
+    <string name="hint_current_password">Enter current password</string>
+    <string name="update_password_btn">Update</string>
+
+    <!-- Business Setup -->
+    <string name="setup_title">Set Up Your Business</string>
+    <string name="setup_subtitle">Tell us about your business to get started</string>
+    <string name="business_type">Business Type</string>
+    <string name="currency">Currency</string>
+    <string name="tax_rate">Tax Rate % (Optional)</string>
+    <string name="finish_setup">Finish Setup 🚀</string>
+
+    <!-- Greetings -->
+    <string name="good_morning">Good morning 👋</string>
+    <string name="good_afternoon">Good afternoon 👋</string>
+    <string name="good_evening">Good evening 👋</string>
+    <string name="working_late">Working late? 🌙</string>
+
+    <!-- Dashboard -->
+    <string name="low_stock">low stock</string>
+    <string name="margin">margin</string>
+    <string name="vs_yesterday">vs yesterday</string>
+    <string name="on_shift">on shift now</string>
+    <string name="orders_today">Orders Today</string>
+    <string name="products">Products</string>
+    <string name="active_staff">Active Staff</string>
+    <string name="net_profit">Net Profit</string>
+    <string name="todays_revenue">TODAY\'S REVENUE</string>
+    <string name="weekly_sales">Weekly Sales</string>
+    <string name="this_week">This Week</string>
+    <string name="recent_sales">Recent Sales</string>
+    <string name="view_all">View All →</string>
+    <string name="no_sales_today">No sales yet today</string>
+    <string name="start_first_sale">Start your first sale →</string>
+    <string name="new_sale">⚡ New Sale</string>
+    <string name="add_product">＋ Product</string>
+    <string name="view_reports">📊 Reports</string>
+    <string name="register_order_btn">📋  Register Order</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_pos">POS</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_staff">Staff</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Inventory -->
+    <string name="inventory_title">Inventory</string>
+    <string name="search_products">Search by name, category or barcode…</string>
+    <string name="total_products">Total items</string>
+    <string name="stock_value">Stock value</string>
+    <string name="add_product_btn">Add Product</string>
+    <string name="no_products_yet">No products yet</string>
+    <string name="add_first_product">Add your first product to get started</string>
+    <string name="in_stock">In Stock</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="low_stock_label">Low Stock</string>
+    <string name="delete_product_title">Delete product?</string>
+    <string name="delete_product_msg">will be permanently removed.</string>
+    <string name="add_product_title">Add New Product</string>
+    <string name="edit_product_title">Edit Product</string>
+    <string name="product_icon_label">Product Icon</string>
+    <string name="product_name_label">Product Name *</string>
+    <string name="product_name_hint">e.g. Coca Cola 500ml</string>
+    <string name="category_label">Category *</string>
+    <string name="category_other">Other</string>
+    <string name="selling_price_label">Selling Price *</string>
+    <string name="cost_price_label">Cost Price</string>
+    <string name="stock_qty_label">Stock Quantity *</string>
+    <string name="low_stock_alert_label">Low Stock Alert</string>
+    <string name="barcode_label">Barcode (Optional)</string>
+    <string name="barcode_hint">Scan or type barcode</string>
+    <string name="save_product_btn">Save Product</string>
+    <string name="adjust_stock_title">Adjust Stock</string>
+    <string name="new_stock_hint">New stock quantity</string>
+    <string name="current_stock_label">Current stock:</string>
+    <string name="product_name_required">Product name is required</string>
+    <string name="selling_price_required">Selling price is required</string>
+    <string name="stock_qty_required">Stock quantity is required</string>
+    <string name="product_deleted">Product deleted</string>
+    <string name="delete_failed">Delete failed</string>
+    <string name="product_updated">Product updated ✅</string>
+    <string name="product_added">Product added ✅</string>
+    <string name="stock_updated">Stock updated ✅</string>
+    <string name="update_failed">Update failed ❌</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="invalid_number">Invalid number</string>
+    <string name="cannot_be_negative">Cannot be negative</string>
+    <string name="in_stock_badge">In Stock: %1$d</string>
+    <string name="low_stock_badge">Low: %1$d</string>
+    <string name="cat_food">🍎 Food</string>
+    <string name="cat_drinks">🥤 Drinks</string>
+    <string name="cat_household">🏠 Household</string>
+    <string name="cat_electronics">📱 Electronics</string>
+    <string name="cat_other">📦 Other</string>
+    <string name="settings_nav_title">Settings &amp; Navigation</string>
+    <string name="menu_change_language">🌐   Change Language</string>
+    <string name="menu_sign_in_different">🔑   Sign in with different account</string>
+    <string name="menu_create_account">📝   Create new account</string>
+    <string name="menu_go_dashboard">🏠   Go to Dashboard</string>
+    <string name="menu_cancel">❌   Cancel</string>
+    <string name="create_account_title">Create New Account?</string>
+    <string name="create_account_msg">All current session data will be cleared.</string>
+    <string name="yes_continue">Yes, Continue</string>
+
+    <!-- Staff -->
+    <string name="staff_title">Staff</string>
+    <string name="total_staff">Total Staff</string>
+    <string name="active">Active</string>
+    <string name="cashiers">Cashiers</string>
+    <string name="add_staff_btn">Add Staff Member</string>
+    <string name="no_staff_yet">No staff members yet</string>
+    <string name="add_first_staff">Add your first staff member to get started</string>
+    <string name="remove_staff_title">Remove Staff</string>
+    <string name="remove_staff_msg">permanently? This cannot be undone.</string>
+    <string name="deactivate_staff">Deactivate Staff</string>
+    <string name="activate_staff">Activate Staff</string>
+    <string name="joined">Joined:</string>
+    <string name="add_staff_member">Add Staff Member</string>
+    <string name="edit_staff_member">Edit Staff Member</string>
+    <string name="tab_all">All</string>
+    <string name="tab_cashiers">🧑‍💻 Cashiers</string>
+    <string name="tab_managers">👔 Managers</string>
+    <string name="tab_inactive">⏸ Inactive</string>
+    <string name="staff_hint_name">Full name *</string>
+    <string name="staff_hint_phone">Phone number *</string>
+    <string name="staff_hint_email">Email (optional)</string>
+    <string name="staff_hint_role">Role *</string>
+    <string name="staff_hint_pin">4-digit PIN *</string>
+    <string name="staff_pin_helper">Used to log into the POS terminal</string>
+    <string name="name_required">Name is required</string>
+    <string name="phone_required">Phone is required</string>
+    <string name="pin_error">Enter a 4-digit PIN</string>
+    <string name="pin_already_used">PIN already used by another staff member</string>
+    <string name="staff_updated">%1$s updated ✅</string>
+    <string name="staff_added">%1$s added ✅</string>
+    <string name="staff_removed">Staff removed</string>
+    <string name="staff_activated">%1$s activated</string>
+    <string name="staff_deactivated">%1$s deactivated</string>
+    <string name="deactivate_confirm">Deactivate %1$s?</string>
+    <string name="activate_confirm">Activate %1$s?</string>
+    <string name="remove_staff_confirm">Remove \"%1$s\" permanently? This cannot be undone.</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Reports</string>
+    <string name="period_today">Today</string>
+    <string name="period_week">This Week</string>
+    <string name="period_month">This Month</string>
+    <string name="period_all">All Time</string>
+    <string name="kpi_revenue">Revenue</string>
+    <string name="kpi_profit">Profit</string>
+    <string name="kpi_orders">Orders</string>
+    <string name="kpi_avg_order">Avg Order</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="sales_history">Sales History</string>
+    <string name="sales_singular">sale</string>
+    <string name="sales_plural">sales</string>
+    <string name="sale_hash">Sale #</string>
+    <string name="no_sales_period">No sales yet for this period</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="section_business">🏪  BUSINESS</string>
+    <string name="section_account">👤  ACCOUNT</string>
+    <string name="section_app">📱  APP</string>
+    <string name="section_danger">⚠️  DANGER ZONE</string>
+    <string name="setting_business_name">Business Name</string>
+    <string name="setting_business_type">Business Type</string>
+    <string name="setting_currency">Currency</string>
+    <string name="setting_tax_rate">Tax Rate</string>
+    <string name="setting_full_name">Full Name</string>
+    <string name="setting_phone">Phone</string>
+    <string name="setting_change_password">Change Password</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_receipt_footer">Receipt Footer Message</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_title">Sign Out?</string>
+    <string name="sign_out_msg">You will be signed out of SwiftSales.</string>
+    <string name="clear_all_data">Clear All Sales Data</string>
+    <string name="clear_data_title">⚠️ Clear All Sales Data?</string>
+    <string name="clear_data_msg">This will permanently delete all sales history. Products and staff will not be affected. This cannot be undone.</string>
+    <string name="clear_data_confirm">Yes, Clear Data</string>
+    <string name="sales_data_cleared">All sales data cleared 🗑️</string>
+    <string name="cannot_be_empty">Cannot be empty</string>
+    <string name="updated_success">updated ✅</string>
+    <string name="incorrect_password">Incorrect current password</string>
+    <string name="password_min_length">Minimum 8 characters</string>
+    <string name="passwords_no_match">Passwords don\'t match</string>
+    <string name="password_updated">Password updated ✅</string>
+    <string name="receipt_footer_default">Thank you for shopping with us!</string>
+    <string name="app_footer">Version 1.0.0 · Made for African businesses</string>
+    <string name="profile_title">My Profile</string>
+    <string name="go_to_settings">Account &amp; Business Settings</string>
+
+    <!-- POS -->
+    <string name="new_sale_title">New Sale</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="no_products_found">No products found</string>
+    <string name="add_products_first">Add products in Inventory first</string>
+    <string name="cart_empty">Cart is empty!</string>
+    <string name="not_enough_stock">Not enough stock!</string>
+    <string name="added_to_cart">added ✅</string>
+    <string name="items">items</string>
+    <string name="each">each</string>
+    <string name="tax_label">Tax</string>
+    <string name="enter_amount_received">Enter amount received</string>
+    <string name="amount_less_than_total">Amount received is less than total!</string>
+    <string name="invalid_amount">Invalid amount</string>
+    <string name="saving">Saving…</string>
+    <string name="sale_completed">Sale completed! 🎉</string>
+    <string name="confirm_sale">✅  Confirm Sale</string>
+    <string name="cart_items">Cart Items</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash_tendered">Cash Tendered</string>
+    <string name="change">Change</string>
+    <string name="pos_stock_label">Stock: %1$d</string>
+    <string name="pos_add_btn">＋ Add</string>
+    <string name="pos_search_hint">🔍  Search or scan barcode...</string>
+
+    <!-- Orders -->
+    <string name="orders_title">Orders</string>
+    <string name="add_order_btn">＋ Order</string>
+    <string name="add_order_title">Register New Order</string>
+    <string name="total_orders">Total</string>
+    <string name="pending_orders">Pending</string>
+    <string name="fulfilled_orders">Fulfilled</string>
+    <string name="order_status_pending">⏳ Pending</string>
+    <string name="order_status_fulfilled">✅ Fulfilled</string>
+    <string name="order_status_cancelled">❌ Cancelled</string>
+    <string name="no_orders_yet">No orders yet</string>
+    <string name="add_first_order">Register your first order to get started</string>
+    <string name="order_customer_name">Customer Name *</string>
+    <string name="order_customer_name_hint">e.g. Jean Pierre</string>
+    <string name="order_customer_contact">Contact (Phone / Handle)</string>
+    <string name="order_customer_contact_hint">+250 788 000 000 or @username</string>
+    <string name="order_channel">Order Channel *</string>
+    <string name="order_items">Items Ordered</string>
+    <string name="order_notes">Notes (Optional)</string>
+    <string name="order_notes_hint">Delivery address, special instructions…</string>
+    <string name="add_item_btn">＋ Add Item</string>
+    <string name="save_order_btn">Register Order</string>
+    <string name="select_product">Select Product</string>
+    <string name="order_no_items">Please add at least one item</string>
+    <string name="fulfil_order_title">Fulfil Order</string>
+    <string name="fulfil_order_msg">Fulfil order for %1$s? Select payment method:</string>
+    <string name="fulfil_confirm">Fulfil</string>
+    <string name="fulfil_order_btn">✅ Fulfil Order</string>
+    <string name="cancel_order_btn">Cancel</string>
+    <string name="cancel_order_title">Cancel Order?</string>
+    <string name="cancel_order_msg">Cancel order for %1$s?</string>
+    <string name="delete_order_title">Delete Order?</string>
+    <string name="delete_order_msg">Permanently delete order for \"%1$s\"?</string>
+    <string name="order_added">Order registered ✅</string>
+    <string name="order_fulfilled">Order fulfilled! 🎉 Saved to Reports</string>
+    <string name="order_cancelled">Order cancelled</string>
+    <string name="pay_cash">💵 Cash</string>
+    <string name="pay_mobile">📱 Mobile Money</string>
+    <string name="pay_card">💳 Card</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="no_notifications">All caught up!</string>
+    <string name="no_notifications_sub">No alerts right now. Keep selling!</string>
+    <string name="notif_today">Today</string>
+    <string name="notif_singular">notification</string>
+    <string name="notif_plural">notifications</string>
+    <string name="notif_daily_summary_title">Today\'s Sales Summary</string>
+    <string name="notif_daily_summary_sub">%1$d orders · Revenue %2$s · Profit %3$s</string>
+    <string name="notif_pending_orders_title">Pending Orders</string>
+    <string name="notif_pending_orders_sub">%1$d order(s) waiting to be fulfilled</string>
+    <string name="notif_low_stock_title">Low Stock: %1$s</string>
+    <string name="notif_low_stock_sub">Only %1$d units remaining</string>
+    <string name="notif_staff_inactive_title">Inactive Staff: %1$s</string>
+    <string name="notif_staff_inactive_sub">This staff member is currently deactivated</string>
+
+    <!-- Common -->
+    <string name="yes">Yes</string>
+    <string name="delete">Delete</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="update_stock">Update Stock</string>
+    <string name="something_went_wrong">Something went wrong ❌</string>
+
+    <!-- res/values/strings.xml (English) -->
+
+        <string name="scan_barcode_btn">Scan Barcode</string>
+        <string name="barcode_scanned">Barcode scanned ✅</string>
+
+    </resources>

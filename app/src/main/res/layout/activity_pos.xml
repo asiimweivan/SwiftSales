@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_pos.xml  ✅ Same IDs · ✅ All labels use @string/ for i18n
+    ✅ paddingLeft/Right → paddingStart/End (RTL-safe)
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- ══ HEADER ════════════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/dashboard_header_bg"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="48dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/btnBackPOS"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="←"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/lang_option_normal"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/new_sale_title"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <!-- Cart badge -->
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/btnCart"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:text="🛒"
+                    android:textSize="22sp"
+                    android:background="@drawable/lang_option_normal" />
+
+                <TextView
+                    android:id="@+id/tvCartCount"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="10sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:background="@drawable/dot_active"
+                    android:layout_gravity="top|end" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- Search bar -->
+        <EditText
+            android:id="@+id/etSearchProduct"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:hint="@string/pos_search_hint"
+            android:background="@drawable/search_bg_dark"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#7ABFEA"
+            android:layout_marginTop="12dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <!-- ══ CATEGORY TABS ═════════════════════════════════════════════════════ -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:id="@+id/posCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView android:id="@+id/posCatAll"
+                android:layout_width="wrap_content" android:layout_height="34dp"
+                android:gravity="center" android:text="@string/tab_all"
+                android:textSize="12sp" android:textColor="#FFFFFF" android:textStyle="bold"
+                android:background="@drawable/tab_active_bg"
+                android:paddingStart="18dp" android:paddingEnd="18dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/posCatFood"
+                android:layout_width="wrap_content" android:layout_height="34dp"
+                android:gravity="center" android:text="@string/cat_food"
+                android:textSize="12sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="18dp" android:paddingEnd="18dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/posCatDrinks"
+                android:layout_width="wrap_content" android:layout_height="34dp"
+                android:gravity="center" android:text="@string/cat_drinks"
+                android:textSize="12sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="18dp" android:paddingEnd="18dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/posCatHousehold"
+                android:layout_width="wrap_content" android:layout_height="34dp"
+                android:gravity="center" android:text="@string/cat_household"
+                android:textSize="12sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="18dp" android:paddingEnd="18dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/posCatElectronics"
+                android:layout_width="wrap_content" android:layout_height="34dp"
+                android:gravity="center" android:text="@string/cat_electronics"
+                android:textSize="12sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="18dp" android:paddingEnd="18dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/posCatOther"
+                android:layout_width="wrap_content" android:layout_height="34dp"
+                android:gravity="center" android:text="@string/cat_other"
+                android:textSize="12sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="18dp" android:paddingEnd="18dp"
+                android:layout_marginEnd="8dp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- ══ PRODUCT GRID ═══════════════════════════════════════════════════════ -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPOSProducts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false" />
+
+    <!-- ══ EMPTY STATE ════════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:id="@+id/posEmptyState"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📦"
+            android:textSize="56sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_products_found"
+            android:textSize="16sp"
+            android:textColor="@color/ink_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_products_first"
+            android:textSize="13sp"
+            android:textColor="@color/ink_soft"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+
+    <!-- ══ CART BAR ═══════════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:id="@+id/cartBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/dashboard_header_bg"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:visibility="gone"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCartItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cart_empty"
+                android:textSize="12sp"
+                android:textColor="#BAE6FD" />
+
+            <TextView
+                android:id="@+id/tvCartTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnCheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="@string/checkout_title"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/btn_accent"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

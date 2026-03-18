@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    splash_glow.xml
+    Radial glow circle behind the logo on the splash screen.
+    Place in: res/drawable/splash_glow.xml
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:type="radial"
+        android:gradientRadius="50%"
+        android:startColor="#400EA5E9"
+        android:centerColor="#200369A1"
+        android:endColor="#00000000" />
+</shape>

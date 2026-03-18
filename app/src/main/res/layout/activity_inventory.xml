@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_inventory.xml
+    ✅ Same IDs
+    ✅ All labels use @string/
+    ✅ NEW: btnScanSearch (📷 button) next to search bar — scans barcode to search
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- ══ HEADER ════════════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/dashboard_header_bg"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="48dp"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/btnBackInv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="←"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/lang_option_normal"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/inventory_title"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnAddProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="@string/add_product_btn"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@drawable/btn_accent"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/btnSettings"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text="⚙️"
+                android:textSize="18sp"
+                android:background="@drawable/lang_option_normal" />
+
+        </LinearLayout>
+
+        <!-- Stats row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/tvTotalProducts"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0" android:textSize="22sp"
+                    android:textColor="#FFFFFF" android:textStyle="bold" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/total_products" android:textSize="11sp"
+                    android:textColor="#BAE6FD" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/tvLowStockCount"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0" android:textSize="22sp"
+                    android:textColor="#FCD34D" android:textStyle="bold" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/low_stock_label" android:textSize="11sp"
+                    android:textColor="#BAE6FD" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/tvOutOfStock"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0" android:textSize="22sp"
+                    android:textColor="#FCA5A5" android:textStyle="bold" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/out_of_stock" android:textSize="11sp"
+                    android:textColor="#BAE6FD" />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:id="@+id/tvStockValue"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0" android:textSize="22sp"
+                    android:textColor="#86EFAC" android:textStyle="bold" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/stock_value" android:textSize="11sp"
+                    android:textColor="#BAE6FD" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- ══ SEARCH BAR + SCAN BUTTON ══════════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp">
+
+        <!-- Search field -->
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:hint="@string/search_products"
+            android:background="@drawable/input_bg"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Scan to search — scans barcode → populates etSearch → triggers search -->
+        <TextView
+            android:id="@+id/btnScanSearch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="📷"
+            android:textSize="20sp"
+            android:background="@drawable/btn_primary"
+            android:contentDescription="@string/scan_barcode_btn" />
+
+    </LinearLayout>
+
+    <!-- ══ CATEGORY TABS ═════════════════════════════════════════════════════ -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:id="@+id/categoryTabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView android:id="@+id/tabAll"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:gravity="center" android:text="@string/tab_all"
+                android:textSize="13sp" android:textColor="#FFFFFF" android:textStyle="bold"
+                android:background="@drawable/tab_active_bg"
+                android:paddingStart="20dp" android:paddingEnd="20dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/tabFood"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:gravity="center" android:text="@string/cat_food"
+                android:textSize="13sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="20dp" android:paddingEnd="20dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/tabDrinks"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:gravity="center" android:text="@string/cat_drinks"
+                android:textSize="13sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="20dp" android:paddingEnd="20dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/tabHousehold"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:gravity="center" android:text="@string/cat_household"
+                android:textSize="13sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="20dp" android:paddingEnd="20dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/tabElectronics"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:gravity="center" android:text="@string/cat_electronics"
+                android:textSize="13sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="20dp" android:paddingEnd="20dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView android:id="@+id/tabOther"
+                android:layout_width="wrap_content" android:layout_height="36dp"
+                android:gravity="center" android:text="@string/cat_other"
+                android:textSize="13sp" android:textColor="@color/ink_medium"
+                android:background="@drawable/tab_inactive_bg"
+                android:paddingStart="20dp" android:paddingEnd="20dp"
+                android:layout_marginEnd="8dp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- ══ PRODUCT LIST + EMPTY STATE ════════════════════════════════════════ -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerProducts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="16dp"
+            android:clipToPadding="false"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/emptyInventory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="📦" android:textSize="64sp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/no_products_yet" android:textSize="18sp"
+                android:textColor="@color/ink_dark" android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/add_first_product" android:textSize="14sp"
+                android:textColor="@color/ink_soft" android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/btnAddFirstProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="@string/add_product_btn"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@drawable/btn_primary"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:layout_marginTop="24dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_splash.xml — SwiftSales Premium Splash Screen
+    ✅ All original IDs kept: glowCircle, logoIcon, appName, tagline,
+       loadingDots, dot1, dot2, dot3
+    ✅ splash_tagline uses @string/ for i18n
+    ✅ Premium dark navy design with electric blue accents
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient">
+
+    <!-- ══ GLOW BEHIND LOGO ══════════════════════════════════════════════════ -->
+    <View
+        android:id="@+id/glowCircle"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/splash_glow"
+        android:alpha="0" />
+
+    <!-- ══ TOP BADGE ═════════════════════════════════════════════════════════ -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="56dp"
+        android:text="🇷🇼  Made for Africa"
+        android:textSize="11sp"
+        android:textColor="#4D7FA8"
+        android:letterSpacing="0.12" />
+
+    <!-- ══ CENTRE CONTENT ════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Logo box — glass morphism style -->
+        <TextView
+            android:id="@+id/logoIcon"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:text="⚡"
+            android:textSize="56sp"
+            android:background="@drawable/logo_bg"
+            android:alpha="0"
+            android:scaleX="0.3"
+            android:scaleY="0.3"
+            android:elevation="12dp" />
+
+        <!-- App name -->
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:letterSpacing="0.04"
+            android:layout_marginTop="24dp"
+            android:alpha="0"
+            android:translationY="30dp" />
+
+        <!-- Blue underline accent -->
+        <View
+            android:layout_width="48dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="#0EA5E9"
+            android:alpha="0.8" />
+
+        <!-- Orange dot accent -->
+        <View
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/dot_active"
+            android:backgroundTint="#F97316" />
+
+        <!-- Tagline -->
+        <TextView
+            android:id="@+id/tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_tagline"
+            android:textSize="14sp"
+            android:textColor="#5B9EC9"
+            android:letterSpacing="0.06"
+            android:layout_marginTop="16dp"
+            android:alpha="0"
+            android:translationY="20dp" />
+
+    </LinearLayout>
+
+    <!-- ══ BOTTOM SECTION ════════════════════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="52dp">
+
+        <!-- Loading dots -->
+        <LinearLayout
+            android:id="@+id/loadingDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:alpha="0">
+
+            <View
+                android:id="@+id/dot1"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/dot_active" />
+
+            <View
+                android:id="@+id/dot2"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/dot_inactive" />
+
+            <View
+                android:id="@+id/dot3"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/dot_inactive" />
+
+        </LinearLayout>
+
+        <!-- Tagline badge row -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+
+            <View
+                android:layout_width="28dp"
+                android:layout_height="1dp"
+                android:background="#1A4D7FA8"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="POS  ·  Inventory  ·  Reports"
+                android:textSize="10sp"
+                android:textColor="#2E5A7A"
+                android:letterSpacing="0.14" />
+
+            <View
+                android:layout_width="28dp"
+                android:layout_height="1dp"
+                android:background="#1A4D7FA8"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <!-- Version -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v1.0.0"
+            android:textSize="10sp"
+            android:textColor="#1A4D7FA8"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

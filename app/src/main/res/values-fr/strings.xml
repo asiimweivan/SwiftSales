@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">SwiftSales</string>
+
+    <!-- Language Screen -->
+    <string name="choose_language">Choisissez votre langue</string>
+    <string name="language_subtitle">Sélectionnez la langue avec laquelle vous êtes le plus à l\'aise</string>
+    <string name="lang_english">English</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_kinyarwanda">Kinyarwanda</string>
+    <string name="continue_btn">Continuer</string>
+
+    <!-- Onboarding -->
+    <string name="onboard1_title">Gérez votre entreprise intelligemment</string>
+    <string name="onboard1_sub">POS complet, inventaire et rapports — tout en un seul endroit</string>
+    <string name="onboard2_title">Connaissez vos chiffres</string>
+    <string name="onboard2_sub">Rapports de ventes en direct, suivi des bénéfices et insights</string>
+    <string name="onboard3_title">Gérez votre équipe</string>
+    <string name="onboard3_sub">Ajoutez du personnel, assignez des permissions, suivez les performances</string>
+    <string name="onboard1_pill1">⚡ Rapide</string>
+    <string name="onboard1_pill2">🔒 Sécurisé</string>
+    <string name="onboard1_pill3">📱 Simple</string>
+    <string name="onboard2_pill1">📈 En Direct</string>
+    <string name="onboard2_pill2">💰 Bénéfice</string>
+    <string name="onboard2_pill3">🏆 Top Produits</string>
+    <string name="onboard3_pill1">👤 Rôles</string>
+    <string name="onboard3_pill2">🔑 PIN</string>
+    <string name="onboard3_pill3">📋 Horaires</string>
+    <string name="next">Suivant</string>
+    <string name="skip">Passer</string>
+    <string name="get_started">Commencer</string>
+    <string name="already_have_account">Vous avez déjà un compte?</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Gérez votre entreprise intelligemment</string>
+
+    <!-- Auth -->
+    <string name="create_account">Créer un compte</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="welcome_back">Bon retour!</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="dont_have_account">Vous n\'avez pas de compte?</string>
+    <string name="full_name">Nom complet</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="email_optional">Email (Optionnel)</string>
+    <string name="business_name">Nom de l\'entreprise</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="terms_agree">J\'accepte les Conditions &amp; Politique de confidentialité</string>
+    <string name="show">Afficher</string>
+    <string name="hide">Masquer</string>
+    <string name="back">← Retour</string>
+    <string name="cancel">Annuler</string>
+    <string name="sign_in_subtitle">Connectez-vous à votre compte SwiftSales</string>
+    <string name="sign_up_subtitle">Commencez à gérer votre entreprise aujourd\'hui</string>
+    <string name="label_phone_or_email">Téléphone ou Email</string>
+    <string name="hint_phone_or_email">+250 788 000 000</string>
+    <string name="hint_password">Votre mot de passe</string>
+    <string name="hint_password_min">Min. 8 caractères</string>
+    <string name="hint_confirm_password">Répétez le mot de passe</string>
+    <string name="hint_full_name">Jean Dupont</string>
+    <string name="hint_phone">788 000 000</string>
+    <string name="hint_email">jean@example.com</string>
+    <string name="hint_business_name">Ma Boutique SARL</string>
+    <string name="hint_tax_rate">ex. 18</string>
+    <string name="or_continue_with">  ou continuer avec  </string>
+    <string name="continue_with_google">🔵  Continuer avec Google</string>
+    <string name="error_phone_email_required">Téléphone ou email requis</string>
+    <string name="error_password_required">Mot de passe requis</string>
+    <string name="error_full_name_required">Le nom complet est requis</string>
+    <string name="error_phone_required">Le numéro de téléphone est requis</string>
+    <string name="error_business_name_required">Le nom de l\'entreprise est requis</string>
+    <string name="error_password_min_length">Le mot de passe doit comporter au moins 8 caractères</string>
+    <string name="error_passwords_no_match">Les mots de passe ne correspondent pas</string>
+    <string name="error_terms_not_agreed">Veuillez accepter les Conditions &amp; Politique de confidentialité</string>
+    <string name="error_invalid_credentials">Identifiants incorrects. Veuillez réessayer.</string>
+    <string name="welcome_back_toast">Bon retour! 👋</string>
+    <string name="account_created_toast">Compte créé! Bienvenue %1$s</string>
+    <string name="setup_complete_toast">Configuration terminée! Allons-y 🚀</string>
+    <string name="reset_code_sent_toast">Code de réinitialisation envoyé à %1$s</string>
+    <string name="forgot_password_subtitle">Entrez votre numéro de téléphone et nous enverrons un code de réinitialisation</string>
+    <string name="send_reset_code">Envoyer le Code</string>
+    <string name="change_password_title">🔒 Changer le Mot de Passe</string>
+    <string name="label_current_password">Mot de Passe Actuel</string>
+    <string name="label_new_password">Nouveau Mot de Passe</string>
+    <string name="label_confirm_new_password">Confirmer le Nouveau Mot de Passe</string>
+    <string name="hint_current_password">Entrez le mot de passe actuel</string>
+    <string name="update_password_btn">Mettre à jour</string>
+
+    <!-- Business Setup -->
+    <string name="setup_title">Configurez votre entreprise</string>
+    <string name="setup_subtitle">Parlez-nous de votre entreprise pour commencer</string>
+    <string name="business_type">Type d\'entreprise</string>
+    <string name="currency">Devise</string>
+    <string name="tax_rate">Taux de taxe % (Optionnel)</string>
+    <string name="finish_setup">Terminer la configuration 🚀</string>
+
+    <!-- Greetings -->
+    <string name="good_morning">Bonjour 👋</string>
+    <string name="good_afternoon">Bon après-midi 👋</string>
+    <string name="good_evening">Bonsoir 👋</string>
+    <string name="working_late">Vous travaillez tard? 🌙</string>
+
+    <!-- Dashboard -->
+    <string name="low_stock">stock faible</string>
+    <string name="margin">marge</string>
+    <string name="vs_yesterday">vs hier</string>
+    <string name="on_shift">en service</string>
+    <string name="orders_today">Commandes Aujourd\'hui</string>
+    <string name="products">Produits</string>
+    <string name="active_staff">Personnel Actif</string>
+    <string name="net_profit">Bénéfice Net</string>
+    <string name="todays_revenue">CHIFFRE D\'AFFAIRES DU JOUR</string>
+    <string name="weekly_sales">Ventes Hebdomadaires</string>
+    <string name="this_week">Cette Semaine</string>
+    <string name="recent_sales">Ventes Récentes</string>
+    <string name="view_all">Voir Tout →</string>
+    <string name="no_sales_today">Aucune vente aujourd\'hui</string>
+    <string name="start_first_sale">Commencer votre première vente →</string>
+    <string name="new_sale">⚡ Nouvelle Vente</string>
+    <string name="add_product">＋ Produit</string>
+    <string name="view_reports">📊 Rapports</string>
+    <string name="register_order_btn">📋  Enregistrer Commande</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_pos">Caisse</string>
+    <string name="nav_inventory">Inventaire</string>
+    <string name="nav_reports">Rapports</string>
+    <string name="nav_staff">Personnel</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Inventory -->
+    <string name="inventory_title">Inventaire</string>
+    <string name="search_products">Rechercher par nom, catégorie ou code-barres…</string>
+    <string name="total_products">Total articles</string>
+    <string name="stock_value">Valeur du stock</string>
+    <string name="add_product_btn">Ajouter un Produit</string>
+    <string name="no_products_yet">Aucun produit pour l\'instant</string>
+    <string name="add_first_product">Ajoutez votre premier produit pour commencer</string>
+    <string name="in_stock">En Stock</string>
+    <string name="out_of_stock">Rupture de Stock</string>
+    <string name="low_stock_label">Stock Faible</string>
+    <string name="delete_product_title">Supprimer le produit?</string>
+    <string name="delete_product_msg">sera supprimé définitivement.</string>
+    <string name="add_product_title">Ajouter un Produit</string>
+    <string name="edit_product_title">Modifier le Produit</string>
+    <string name="product_icon_label">Icône du Produit</string>
+    <string name="product_name_label">Nom du Produit *</string>
+    <string name="product_name_hint">ex. Coca Cola 500ml</string>
+    <string name="category_label">Catégorie *</string>
+    <string name="category_other">Autre</string>
+    <string name="selling_price_label">Prix de Vente *</string>
+    <string name="cost_price_label">Prix de Revient</string>
+    <string name="stock_qty_label">Quantité en Stock *</string>
+    <string name="low_stock_alert_label">Alerte Stock Bas</string>
+    <string name="barcode_label">Code-barres (Optionnel)</string>
+    <string name="barcode_hint">Scanner ou taper le code-barres</string>
+    <string name="save_product_btn">Enregistrer le Produit</string>
+    <string name="adjust_stock_title">Ajuster le Stock</string>
+    <string name="new_stock_hint">Nouvelle quantité en stock</string>
+    <string name="current_stock_label">Stock actuel:</string>
+    <string name="product_name_required">Le nom du produit est requis</string>
+    <string name="selling_price_required">Le prix de vente est requis</string>
+    <string name="stock_qty_required">La quantité en stock est requise</string>
+    <string name="product_deleted">Produit supprimé</string>
+    <string name="delete_failed">Suppression échouée</string>
+    <string name="product_updated">Produit mis à jour ✅</string>
+    <string name="product_added">Produit ajouté ✅</string>
+    <string name="stock_updated">Stock mis à jour ✅</string>
+    <string name="update_failed">Mise à jour échouée ❌</string>
+    <string name="enter_a_number">Entrez un nombre</string>
+    <string name="invalid_number">Nombre invalide</string>
+    <string name="cannot_be_negative">Ne peut pas être négatif</string>
+    <string name="in_stock_badge">En Stock: %1$d</string>
+    <string name="low_stock_badge">Bas: %1$d</string>
+    <string name="cat_food">🍎 Nourriture</string>
+    <string name="cat_drinks">🥤 Boissons</string>
+    <string name="cat_household">🏠 Maison</string>
+    <string name="cat_electronics">📱 Électronique</string>
+    <string name="cat_other">📦 Autre</string>
+    <string name="settings_nav_title">Paramètres &amp; Navigation</string>
+    <string name="menu_change_language">🌐   Changer de Langue</string>
+    <string name="menu_sign_in_different">🔑   Se connecter avec un autre compte</string>
+    <string name="menu_create_account">📝   Créer un nouveau compte</string>
+    <string name="menu_go_dashboard">🏠   Aller au Tableau de Bord</string>
+    <string name="menu_cancel">❌   Annuler</string>
+    <string name="create_account_title">Créer un Nouveau Compte?</string>
+    <string name="create_account_msg">Toutes les données de session seront effacées.</string>
+    <string name="yes_continue">Oui, Continuer</string>
+
+    <!-- Staff -->
+    <string name="staff_title">Personnel</string>
+    <string name="total_staff">Total Personnel</string>
+    <string name="active">Actif</string>
+    <string name="cashiers">Caissiers</string>
+    <string name="add_staff_btn">Ajouter un Membre</string>
+    <string name="no_staff_yet">Aucun membre du personnel</string>
+    <string name="add_first_staff">Ajoutez votre premier membre pour commencer</string>
+    <string name="remove_staff_title">Supprimer le Personnel</string>
+    <string name="remove_staff_msg">définitivement? Cela ne peut pas être annulé.</string>
+    <string name="deactivate_staff">Désactiver le Personnel</string>
+    <string name="activate_staff">Activer le Personnel</string>
+    <string name="joined">Rejoint:</string>
+    <string name="add_staff_member">Ajouter un Membre</string>
+    <string name="edit_staff_member">Modifier un Membre</string>
+    <string name="tab_all">Tous</string>
+    <string name="tab_cashiers">🧑‍💻 Caissiers</string>
+    <string name="tab_managers">👔 Managers</string>
+    <string name="tab_inactive">⏸ Inactifs</string>
+    <string name="staff_hint_name">Nom complet *</string>
+    <string name="staff_hint_phone">Numéro de téléphone *</string>
+    <string name="staff_hint_email">Email (optionnel)</string>
+    <string name="staff_hint_role">Rôle *</string>
+    <string name="staff_hint_pin">PIN à 4 chiffres *</string>
+    <string name="staff_pin_helper">Utilisé pour se connecter à la caisse</string>
+    <string name="name_required">Le nom est requis</string>
+    <string name="phone_required">Le téléphone est requis</string>
+    <string name="pin_error">Entrez un PIN à 4 chiffres</string>
+    <string name="pin_already_used">Ce PIN est déjà utilisé par un autre membre</string>
+    <string name="staff_updated">%1$s mis à jour ✅</string>
+    <string name="staff_added">%1$s ajouté ✅</string>
+    <string name="staff_removed">Membre supprimé</string>
+    <string name="staff_activated">%1$s activé</string>
+    <string name="staff_deactivated">%1$s désactivé</string>
+    <string name="deactivate_confirm">Désactiver %1$s?</string>
+    <string name="activate_confirm">Activer %1$s?</string>
+    <string name="remove_staff_confirm">Supprimer \"%1$s\" définitivement? Cela ne peut pas être annulé.</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Rapports</string>
+    <string name="period_today">Aujourd\'hui</string>
+    <string name="period_week">Cette Semaine</string>
+    <string name="period_month">Ce Mois</string>
+    <string name="period_all">Tout</string>
+    <string name="kpi_revenue">Chiffre d\'affaires</string>
+    <string name="kpi_profit">Bénéfice</string>
+    <string name="kpi_orders">Commandes</string>
+    <string name="kpi_avg_order">Panier Moyen</string>
+    <string name="payment_methods">Modes de Paiement</string>
+    <string name="sales_history">Historique des Ventes</string>
+    <string name="sales_singular">vente</string>
+    <string name="sales_plural">ventes</string>
+    <string name="sale_hash">Vente #</string>
+    <string name="no_sales_period">Aucune vente pour cette période</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="section_business">🏪  ENTREPRISE</string>
+    <string name="section_account">👤  COMPTE</string>
+    <string name="section_app">📱  APPLICATION</string>
+    <string name="section_danger">⚠️  ZONE DANGEREUSE</string>
+    <string name="setting_business_name">Nom de l\'entreprise</string>
+    <string name="setting_business_type">Type d\'entreprise</string>
+    <string name="setting_currency">Devise</string>
+    <string name="setting_tax_rate">Taux de taxe</string>
+    <string name="setting_full_name">Nom complet</string>
+    <string name="setting_phone">Téléphone</string>
+    <string name="setting_change_password">Changer le mot de passe</string>
+    <string name="setting_language">Langue</string>
+    <string name="setting_receipt_footer">Message de reçu</string>
+    <string name="sign_out">Se déconnecter</string>
+    <string name="sign_out_title">Se déconnecter?</string>
+    <string name="sign_out_msg">Vous serez déconnecté de SwiftSales.</string>
+    <string name="clear_all_data">Effacer toutes les ventes</string>
+    <string name="clear_data_title">⚠️ Effacer toutes les ventes?</string>
+    <string name="clear_data_msg">Cela supprimera définitivement tout l\'historique des ventes. Les produits et le personnel ne seront pas affectés.</string>
+    <string name="clear_data_confirm">Oui, effacer</string>
+    <string name="sales_data_cleared">Toutes les ventes effacées 🗑️</string>
+    <string name="cannot_be_empty">Ne peut pas être vide</string>
+    <string name="updated_success">mis à jour ✅</string>
+    <string name="incorrect_password">Mot de passe actuel incorrect</string>
+    <string name="password_min_length">Minimum 8 caractères</string>
+    <string name="passwords_no_match">Les mots de passe ne correspondent pas</string>
+    <string name="password_updated">Mot de passe mis à jour ✅</string>
+    <string name="receipt_footer_default">Merci de vos achats!</string>
+    <string name="app_footer">Version 1.0.0 · Fait pour les entreprises africaines</string>
+    <string name="profile_title">Mon Profil</string>
+    <string name="go_to_settings">Paramètres du Compte</string>
+
+    <!-- POS -->
+    <string name="new_sale_title">Nouvelle Vente</string>
+    <string name="checkout_title">Caisse</string>
+    <string name="no_products_found">Aucun produit trouvé</string>
+    <string name="add_products_first">Ajoutez des produits dans l\'inventaire d\'abord</string>
+    <string name="cart_empty">Le panier est vide!</string>
+    <string name="not_enough_stock">Stock insuffisant!</string>
+    <string name="added_to_cart">ajouté ✅</string>
+    <string name="items">articles</string>
+    <string name="each">chacun</string>
+    <string name="tax_label">Taxe</string>
+    <string name="enter_amount_received">Entrez le montant reçu</string>
+    <string name="amount_less_than_total">Montant reçu inférieur au total!</string>
+    <string name="invalid_amount">Montant invalide</string>
+    <string name="saving">Enregistrement…</string>
+    <string name="sale_completed">Vente complétée! 🎉</string>
+    <string name="confirm_sale">✅  Confirmer la Vente</string>
+    <string name="cart_items">Articles du Panier</string>
+    <string name="order_summary">Récapitulatif</string>
+    <string name="payment_method">Mode de Paiement</string>
+    <string name="cash_tendered">Espèces Reçues</string>
+    <string name="change">Monnaie</string>
+    <string name="pos_stock_label">Stock: %1$d</string>
+    <string name="pos_add_btn">＋ Ajouter</string>
+    <string name="pos_search_hint">🔍  Rechercher ou scanner...</string>
+
+    <!-- Orders -->
+    <string name="orders_title">Commandes</string>
+    <string name="add_order_btn">＋ Commande</string>
+    <string name="add_order_title">Enregistrer une Commande</string>
+    <string name="total_orders">Total</string>
+    <string name="pending_orders">En attente</string>
+    <string name="fulfilled_orders">Traitées</string>
+    <string name="order_status_pending">⏳ En attente</string>
+    <string name="order_status_fulfilled">✅ Traitée</string>
+    <string name="order_status_cancelled">❌ Annulée</string>
+    <string name="no_orders_yet">Aucune commande</string>
+    <string name="add_first_order">Enregistrez votre première commande</string>
+    <string name="order_customer_name">Nom du Client *</string>
+    <string name="order_customer_name_hint">ex. Jean Pierre</string>
+    <string name="order_customer_contact">Contact (Téléphone / Pseudo)</string>
+    <string name="order_customer_contact_hint">+250 788 000 000 ou @pseudo</string>
+    <string name="order_channel">Canal de Commande *</string>
+    <string name="order_items">Articles Commandés</string>
+    <string name="order_notes">Notes (Optionnel)</string>
+    <string name="order_notes_hint">Adresse de livraison, instructions…</string>
+    <string name="add_item_btn">＋ Ajouter</string>
+    <string name="save_order_btn">Enregistrer</string>
+    <string name="select_product">Sélectionner un Produit</string>
+    <string name="order_no_items">Ajoutez au moins un article</string>
+    <string name="fulfil_order_title">Traiter la Commande</string>
+    <string name="fulfil_order_msg">Traiter la commande de %1$s? Mode de paiement:</string>
+    <string name="fulfil_confirm">Traiter</string>
+    <string name="fulfil_order_btn">✅ Traiter</string>
+    <string name="cancel_order_btn">Annuler</string>
+    <string name="cancel_order_title">Annuler la Commande?</string>
+    <string name="cancel_order_msg">Annuler la commande de %1$s?</string>
+    <string name="delete_order_title">Supprimer la Commande?</string>
+    <string name="delete_order_msg">Supprimer définitivement la commande de \"%1$s\"?</string>
+    <string name="order_added">Commande enregistrée ✅</string>
+    <string name="order_fulfilled">Commande traitée! 🎉 Ajoutée aux Rapports</string>
+    <string name="order_cancelled">Commande annulée</string>
+    <string name="pay_cash">💵 Espèces</string>
+    <string name="pay_mobile">📱 Mobile Money</string>
+    <string name="pay_card">💳 Carte</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="no_notifications">Tout est à jour!</string>
+    <string name="no_notifications_sub">Aucune alerte pour le moment.</string>
+    <string name="notif_today">Aujourd\'hui</string>
+    <string name="notif_singular">notification</string>
+    <string name="notif_plural">notifications</string>
+    <string name="notif_daily_summary_title">Résumé des Ventes du Jour</string>
+    <string name="notif_daily_summary_sub">%1$d commandes · Chiffre %2$s · Bénéfice %3$s</string>
+    <string name="notif_pending_orders_title">Commandes en Attente</string>
+    <string name="notif_pending_orders_sub">%1$d commande(s) à traiter</string>
+    <string name="notif_low_stock_title">Stock Bas: %1$s</string>
+    <string name="notif_low_stock_sub">Seulement %1$d unités restantes</string>
+    <string name="notif_staff_inactive_title">Personnel Inactif: %1$s</string>
+    <string name="notif_staff_inactive_sub">Ce membre du personnel est désactivé</string>
+
+    <!-- Common -->
+    <string name="yes">Oui</string>
+    <string name="delete">Supprimer</string>
+    <string name="remove">Retirer</string>
+    <string name="edit">Modifier</string>
+    <string name="save">Enregistrer</string>
+    <string name="update_stock">Mettre à jour le stock</string>
+    <string name="something_went_wrong">Une erreur s\'est produite ❌</string>
+
+    <!-- res/values-fr/strings.xml (French) -->
+
+        <string name="scan_barcode_btn">Scanner le code-barres</string>
+        <string name="barcode_scanned">Code-barres scanné ✅</string>
+
+    </resources>

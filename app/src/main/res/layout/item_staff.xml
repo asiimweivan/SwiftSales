@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    item_staff.xml  —  SwiftSales Staff Card
+    ─────────────────────────────────────────
+    ✅  Keeps ALL original IDs:
+        tvStaffAvatar, dotActive, tvStaffName, tvStaffRoleBadge,
+        tvStaffPhone, tvStaffJoinDate, btnEditStaff, btnToggleStaff
+    ➕  Adds: btnDeleteStaff (explicit delete; replaces long-press as primary)
+    ✅  Uses your existing drawables: card_bg, avatar_bg, dot_active, badge_primary,
+        onboarding_inner_circle, badge_warning
+-->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="14dp">
+
+        <!-- ── Avatar + active dot ───────────────────────────────────────── -->
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginEnd="14dp">
+
+            <TextView
+                android:id="@+id/tvStaffAvatar"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:text="AB"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@drawable/avatar_bg" />
+
+            <View
+                android:id="@+id/dotActive"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/dot_active"
+                android:layout_gravity="bottom|end" />
+
+        </FrameLayout>
+
+        <!-- ── Info column ───────────────────────────────────────────────── -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Name + role badge -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tvStaffName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Staff Name"
+                    android:textSize="15sp"
+                    android:textColor="@color/ink_dark"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_marginEnd="6dp" />
+
+                <TextView
+                    android:id="@+id/tvStaffRoleBadge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cashier"
+                    android:textSize="10sp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"
+                    android:background="@drawable/badge_primary"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp" />
+
+            </LinearLayout>
+
+            <!-- Phone -->
+            <TextView
+                android:id="@+id/tvStaffPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone number"
+                android:textSize="12sp"
+                android:textColor="@color/ink_soft"
+                android:layout_marginTop="4dp" />
+
+            <!-- Join date -->
+            <TextView
+                android:id="@+id/tvStaffJoinDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joined: —"
+                android:textSize="11sp"
+                android:textColor="@color/ink_soft"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+        <!-- ── Action buttons column ─────────────────────────────────────── -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginStart="8dp">
+
+            <!-- Edit -->
+            <TextView
+                android:id="@+id/btnEditStaff"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:text="✏️"
+                android:textSize="15sp"
+                android:background="@drawable/onboarding_inner_circle"
+                android:layout_marginBottom="6dp" />
+
+            <!-- Toggle active/inactive -->
+            <TextView
+                android:id="@+id/btnToggleStaff"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:text="⏸"
+                android:textSize="15sp"
+                android:background="@drawable/badge_warning"
+                android:layout_marginBottom="6dp" />
+
+            <!-- Delete (new explicit button — keeps long-press as fallback) -->
+            <TextView
+                android:id="@+id/btnDeleteStaff"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:text="🗑"
+                android:textSize="14sp"
+                android:background="@drawable/btn_danger_outline" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    res/layout/item_order_row.xml
+    Single product row inside the Add Order bottom sheet.
+    IDs: tvOrderRowName, btnOrderRowMinus, tvOrderRowQty,
+         btnOrderRowPlus, btnOrderRowRemove
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/card_bg"
+    android:padding="10dp"
+    android:layout_marginBottom="6dp">
+
+    <TextView
+        android:id="@+id/tvOrderRowName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:textColor="@color/ink_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btnOrderRowMinus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="−"
+        android:textSize="18sp"
+        android:textColor="@color/danger"
+        android:textStyle="bold"
+        android:background="@drawable/tab_inactive_bg"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/tvOrderRowQty"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="15sp"
+        android:textColor="@color/ink_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btnOrderRowPlus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="＋"
+        android:textSize="18sp"
+        android:textColor="@color/primary"
+        android:textStyle="bold"
+        android:background="@drawable/tab_inactive_bg" />
+
+    <TextView
+        android:id="@+id/btnOrderRowRemove"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="✕"
+        android:textSize="13sp"
+        android:textColor="@color/danger"
+        android:background="@drawable/btn_danger_outline"
+        android:layout_marginStart="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    logo_bg.xml
+    Background for the ⚡ logo box on the splash screen.
+    Rounded square, glass-morphism style — semi-transparent with electric blue border.
+    Place in: res/drawable/logo_bg.xml
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer glow border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#330EA5E9" />
+            <corners android:radius="28dp" />
+        </shape>
+    </item>
+
+    <!-- Main glass body -->
+    <item
+        android:top="2dp"
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#1A1E8FBF"
+                android:endColor="#1A0C1E38" />
+            <corners android:radius="26dp" />
+            <stroke
+                android:width="1.5dp"
+                android:color="#550EA5E9" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingBottom="220dp"
+    android:paddingTop="80dp">
+
+    <!-- Illustration card -->
+    <FrameLayout
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center">
+
+        <!-- Outer glow ring -->
+        <View
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:background="@drawable/onboarding_outer_ring"
+            android:alpha="0.4" />
+
+        <!-- Inner circle -->
+        <View
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:background="@drawable/onboarding_inner_circle" />
+
+        <!-- Emoji -->
+        <TextView
+            android:id="@+id/onboardingEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="🛒"
+            android:textSize="84sp" />
+
+    </FrameLayout>
+
+    <!-- Slide number badge -->
+    <TextView
+        android:id="@+id/tvSlideNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="01 / 03"
+        android:textSize="11sp"
+        android:textColor="@color/primary"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"
+        android:background="@drawable/badge_primary"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="28dp" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/onboardingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run Your Business Smarter"
+        android:textSize="28sp"
+        android:textColor="@color/ink_dark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginTop="16dp" />
+
+    <!-- Divider accent -->
+    <View
+        android:layout_width="48dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_accent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/onboardingSubtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complete POS, inventory, and reports — all in one place"
+        android:textSize="15sp"
+        android:textColor="@color/ink_soft"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.6" />
+
+    <!-- Feature pills row -->
+    <LinearLayout
+        android:id="@+id/pillsRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/pill1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="⚡ Fast"
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:background="@drawable/pill_bg"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/pill2"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="🔒 Secure"
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:background="@drawable/pill_bg"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/pill3"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="📱 Simple"
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:background="@drawable/pill_bg"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

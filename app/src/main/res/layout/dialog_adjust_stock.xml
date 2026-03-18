@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    dialog_adjust_stock.xml  ✅ Same IDs · ✅ Labels use @string/ for i18n
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    android:padding="24dp"
+    android:layout_marginHorizontal="20dp">
+
+    <!-- Title row -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📊" android:textSize="24sp" android:layout_marginEnd="10dp" />
+
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/adjust_stock_title"
+            android:textSize="18sp" android:textStyle="bold"
+            android:textColor="@color/ink_dark" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/tvAdjustProductName"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="15sp" android:textColor="@color/ink_dark"
+        android:textStyle="bold" android:layout_marginBottom="4dp" />
+
+    <TextView android:id="@+id/tvCurrentStock"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="13sp" android:textColor="@color/ink_medium"
+        android:layout_marginBottom="16dp" />
+
+    <!-- New stock input -->
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/new_stock_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNewStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Buttons -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:id="@+id/btnCancelStock"
+            android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1"
+            android:gravity="center" android:text="@string/cancel"
+            android:textSize="14sp" android:textColor="@color/primary" android:textStyle="bold"
+            android:background="@drawable/btn_outline_primary"
+            android:layout_marginEnd="10dp" />
+
+        <TextView android:id="@+id/btnSaveStock"
+            android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="2"
+            android:gravity="center" android:text="@string/update_stock"
+            android:textSize="14sp" android:textColor="#FFFFFF" android:textStyle="bold"
+            android:background="@drawable/btn_primary" />
+
+    </LinearLayout>
+
+</LinearLayout>

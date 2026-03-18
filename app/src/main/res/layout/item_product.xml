@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/card_bg"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="10dp"
+    android:elevation="1dp">
+
+    <!-- Product icon/emoji box -->
+    <TextView
+        android:id="@+id/tvProductEmoji"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="📦"
+        android:textSize="26sp"
+        android:background="@drawable/onboarding_circle_bg"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Product info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textSize="15sp"
+            android:textColor="@color/ink_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvProductCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="12sp"
+            android:textColor="@color/ink_soft"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <!-- Stock badge -->
+            <TextView
+                android:id="@+id/tvStockBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In Stock: 0"
+                android:textSize="11sp"
+                android:textColor="@color/success"
+                android:textStyle="bold"
+                android:background="@drawable/badge_success"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginEnd="6dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Price + actions -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/tvProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RWF 0"
+            android:textSize="15sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/btnEdit"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="✏️"
+                android:textSize="14sp"
+                android:background="@drawable/onboarding_circle_bg"
+                android:layout_marginEnd="6dp" />
+
+            <TextView
+                android:id="@+id/btnDelete"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="🗑️"
+                android:textSize="14sp"
+                android:background="@drawable/badge_warning" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
